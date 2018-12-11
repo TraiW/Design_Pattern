@@ -24,16 +24,16 @@
 //	public static void main(String[] args) {
 //
 //		ChessGame chessGame;
-//		ChessGameControlers chessGameControler;
+//		ChessGameControlers ChessGameControler;
 //		JFrame frame;
 //		Dimension dim;
 //
 //		dim = new Dimension(700, 700);
 //
 //		chessGame = new ChessGame();
-//		chessGameControler = new ChessGameControler(chessGame);
+//		ChessGameControler = new ChessGameControler(chessGame);
 //
-//		frame = new ChessGameGUI("Jeu d'échec", chessGameControler,  dim);
+//		frame = new ChessGameGUI("Jeu d'échec", ChessGameControler,  dim);
 //		chessGame.addObserver((Observer) frame);
 //
 //		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
