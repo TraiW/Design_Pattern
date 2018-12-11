@@ -12,7 +12,7 @@ public class Pion extends AbstractPiece  {
 	private boolean premierCoup;
 
 	/**
-	 * @param name
+	 * @paramname
 	 * @param couleur_de_piece
 	 * @param coord
 	 */
