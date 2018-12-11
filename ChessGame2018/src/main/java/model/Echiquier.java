@@ -391,9 +391,8 @@ public class Echiquier implements BoardGames {
 		System.out.println(e);
 		if (isMoveOK)
 			e.switchJoueur();
-		
-		// ...
-	
+
+		System.out.println(e.getPieceIHMs());
 		
 	
 		

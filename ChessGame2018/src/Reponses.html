@@ -1,4 +1,4 @@
-Adapter :
+- Adapter :
 
 Il permet de convertir l'interface d'une classe en une autre interface que le client attend.
 
@@ -6,8 +6,17 @@ L’adaptateur fait fonctionner ensemble des classes qui n'auraient pas pu fonct
 IHM ne peuvent pas manipuler directement des pieces pour pas appeler les methodes de MAJ (move, capture) sans passer par le controle de l'echiquier
 Classe echiquier est une "Facade" il faut quelle puisse envoyer des infos exploitables par les IHM
 
-Proxy :
+- Proxy :
 
 Un proxy est une classe se substituant à une autre classe. Par convention et simplicité, le proxy implémente la même interface que la classe à laquelle il se substitue1.
 L'utilisation de ce proxy ajoute une indirection à l'utilisation de la classe à substituer1.
 Simplifier l'interface de Echiquier en passant par un proxy ChessGame
+
+- nObservables :
+
+Il est utilisé pour envoyer un signal à des modules qui jouent le rôle d'observateurs. En cas de notification, les observateurs effectuent alors l'action adéquate en fonction des informations qui parviennent depuis les modules qu'ils observent (les observables).
+
+Class observable
+Interface Observer
+
+extend deux differentes classes du coup on doit creer les notres

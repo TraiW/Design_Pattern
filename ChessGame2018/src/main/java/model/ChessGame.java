@@ -1,6 +1,9 @@
 package model;
+
+import tools.ObservableClass;
+
 // Pattern proxy
-public class ChessGame  implements BoardGames {
+public class ChessGame  extends ObservableClass implements BoardGames {
 
     private Echiquier echiquier;
 
@@ -24,6 +27,7 @@ public class ChessGame  implements BoardGames {
                 echiquier.switchJoueur();
             }
         }
+        this.notifyObservers(echiquier.getPieceIHMs());
 
         return  moveDone;
     }
